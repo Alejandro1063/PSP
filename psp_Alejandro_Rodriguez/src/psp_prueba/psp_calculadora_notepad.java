@@ -15,7 +15,7 @@ public class psp_calculadora_notepad {
 		
 		 ProcessBuilder pb;
         try {
-                pb = new ProcessBuilder(ruta);
+                pb = new ProcessBuilder(ruta);;
                 pb.start();
         } catch (Exception e) {
                 // TODO Auto-generated catch block
